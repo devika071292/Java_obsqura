@@ -7,7 +7,7 @@ public class OffSeasonClass extends OnSeasonClass {
 	public void discount (double price)
 	{
 		discoff =15.0/100.0*price;
-		double total = price -discoff;
+		double total = price - discoff;
 		System.out.println("*****Bill*****");
 		System.out.println("*****Off Season discount applied*****");
 		System.out.println("Price : " + price);

@@ -6,7 +6,7 @@ public class OnSeasonClass
 	public void discount (double price)
 	{
 		disc =40.0/100.0*price;
-		double total = price -disc;
+		double total = price - disc;
 		System.out.println("*****Bill*****");
 		System.out.println("*****On Season discount applied*****");
 		System.out.println("Price : " + price);
